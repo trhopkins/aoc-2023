@@ -3,7 +3,7 @@
 ; Advent of Code 2023 day 1 part 2
 
 (define lines
-  (call-with-input-file "01.txt"
+  (call-with-input-file "input.txt"
     (lambda (in)
       (for/list ([line (in-lines in)])
         line))))
